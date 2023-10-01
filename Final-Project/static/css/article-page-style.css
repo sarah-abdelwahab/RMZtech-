@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-image: linear-gradient(#FECE2F15, white);
+}
+.comment-input{
+    width: 50%;
+  }
+  .display-2 {
+    font-weight: 400;
+  }
+  .footer-icons{
+    margin-right: 65px;
+}
+  nav {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px 0px #00000026;
+    height: 85px;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    padding: 10px;
+    color: #fff;
+}
+#myBtn{
+  position: fixed; 
+  right: 20px; 
+  bottom: 30px;
+  z-index: 99;
+  padding: 10px;
+  width:60px;
+  height:60px;
+  display: none; 
+  font-size: 30px;
+  border-radius: 100px; 
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(beige,lightgrey);
+  box-shadow: lightgrey;
+}
+.button-1{
+  border: none;
+  outline: none;
+  background-color: #5165FD;
+  padding: 10px 40px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.input-1{
+  border: none;
+  outline: none;
+  background-color: #EEEEEE;
+  padding-left: 25px;
+}
+.search3{
+  display: none;
+}
+.box{
+  background-color: #EEEEEE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+  .line {
+    border: solid 3px #fece2f;
+    width: 141px;
+  }
+
+  .img-fluid {
+    margin-top: 30px;
+  }
+
+  .input,
+  .section-people {
+    background-color: #F6F6F6;
+    border: none;
+  }
+
+  .input {
+    border-radius: 2px;
+  }
+
+  .like_share {
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width : 430px) {
+    .line{
+    margin-right: 100px;
+    }
+    .like_share {
+      display: flex;
+      gap: 8px;
+      margin-top: 40px;
+      flex-direction: column;
+
+    }
+    .navbar-toggler-icon{
+      display: none;
+    }
+    .comment-input{
+    width: 100%;
+  }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .display-2{
+      font-size: 32px;
+      margin: 20px;
+  margin-bottom: 5px;
+    }
+    .search2 {
+      display: none;
+  }
+  .search3{
+      display: inline;
+  }
+  .footer-icons{
+    margin-right: 35px;
+}
+  }
